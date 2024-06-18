@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "Tomato Grotesk";
+  src: url(/assets/Tomato-Grotesk-VF.ttf) format('truetype');
+}
+body {
+  font-family: "Tomato Grotesk", serif;
+  background-color: #121212;
+  color: white;
+}

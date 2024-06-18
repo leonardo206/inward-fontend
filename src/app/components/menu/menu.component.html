@@ -1,0 +1,21 @@
+<nav class="desktop-menu">
+  <div class="desktop-menu-wrapper">
+    <ul class="menu">
+      <li *ngFor="let item of menuItems">
+        <a routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}" [routerLink]="item.link">{{ item.name }}</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<nav class="mobile-menu">
+  <button (click)="toggleMobileMenu()" class="menu-button">
+    <img ngSrc="/assets/logo.svg" alt="logo" height="40" width="40"/><div class="mobile-menu-divider"></div><span>MENU</span>
+  </button>
+  <div *ngIf="isMobileMenuOpen" class="mobile-menu-content">
+    <ul>
+      <li *ngFor="let item of menuItems">
+        <a routerLinkActive="active" (click)="toggleMobileMenu()" [routerLink]="item.link">{{ item.name }}</a>
+      </li>
+    </ul>
+  </div>
+</nav>
