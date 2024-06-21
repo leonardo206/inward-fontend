@@ -51,6 +51,9 @@
   display: block;
   border-radius: 30px;
 }
+.strategies-wrapper {
+  overflow: visible;
+}
 
 .approach-wrapper{
 }
@@ -77,6 +80,14 @@
   border: 1px solid #8e8e8e;
 }
 
+.approach-text {
+  font-weight: 450;
+  font-size: 48px;
+  margin-bottom: 64px;
+}
+
 .layout-spacer {
   height: 160px;
 }
+
+

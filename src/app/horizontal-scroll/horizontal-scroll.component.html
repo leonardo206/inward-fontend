@@ -1,0 +1,12 @@
+<div class="scroller" [attr.data-direction]="direction" [attr.data-speed]="speed">
+  <div class="scroller__inner">
+    <ng-container *ngFor="let item of items">
+      <ng-container *ngIf="item.imagePath">
+        <div class="strategies-wrapper-element">
+          <img class="strategies-element-img" ngSrc="{{item.imagePath}}" [alt]="item.key" height="100" width="100">
+          <span class="strategies-element-text">{{item.text}}</span>
+        </div>
+      </ng-container>
+    </ng-container>
+  </div>
+</div>

@@ -10,4 +10,5 @@ body {
   background-image: url(/assets/footer-background.svg);
   background-position: center bottom;
   background-repeat: no-repeat;
+  overflow: hidden;
 }

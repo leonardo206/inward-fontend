@@ -1,0 +1,29 @@
+<div class="item-slider-container">
+  <h4 class="px-3 mb-3 item-title">{{ title }}</h4>
+  <div class="item-slider">
+    <div #scrl (scroll)="scrollCheck()" class="item-container">
+      <div class="strategies-slider strategy-slider-left scroller">
+        <div class="strategies-wrapper-element">
+          <img class="strategies-element-img" ngSrc="/assets/approach-experimentation.svg" alt="strategies-experiment"
+               height="100" width="100"/>
+          <span class="strategies-element-text">EXPERIMENT</span>
+        </div>
+        <div class="strategies-wrapper-element">
+          <img class="strategies-element-img" ngSrc="/assets/approach-collaboration.svg" alt="strategies-design"
+               height="100" width="100"/>
+          <span class="strategies-element-text">DESIGN</span>
+        </div>
+        <div class="strategies-wrapper-element">
+          <img class="strategies-element-img" ngSrc="/assets/approach-implementation.svg" alt="strategies-develop"
+               height="100" width="100"/>
+          <span class="strategies-element-text">DEVELOP</span>
+        </div>
+        <div class="strategies-wrapper-element">
+          <img class="strategies-element-img" ngSrc="/assets/approach-testing.svg" alt="strategies-testing"
+               height="100" width="100"/>
+          <span class="strategies-element-text">TESTING</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><p>card-slider works!</p>
