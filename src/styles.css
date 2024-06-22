@@ -10,5 +10,38 @@ body {
   background-image: url(/assets/footer-background.svg);
   background-position: center bottom;
   background-repeat: no-repeat;
-  overflow: hidden;
+  margin: 0;
+}
+
+
+.layout-spacer {
+  height: 160px;
+}
+
+.inward-button {
+  color: #05FF00;
+  background-color: transparent;
+  padding: 16px 23px;
+  border: 2px solid #05FF00;
+  border-radius: 100px;
+  font-size: 20px;
+}
+
+.inward-green{
+  color: #05FF00;
+}
+
+.inward-title {
+  font-size: 48px;
+}
+
+.align-center {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.margin-y-160{
+  margin-left:160px;
+  margin-right:160px;
 }

@@ -1,0 +1,39 @@
+.top-logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+.header-container {
+  position: relative;
+  text-align: center;
+  padding: 50px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 150px;
+}
+
+.ellipse {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 1300px;
+  height: 490px;
+  background: transparent;
+  border: 1px solid #05FF00;
+  border-radius: 50%;
+  transform: translate(-50%, -50%) rotate(162.54deg);
+}
+
+.text-below {
+  position: relative;
+  font-weight: 450;
+  z-index: 2;
+  margin-top: 5px; /* Add some space between the main text and below text */
+  font-size: 40px;
+}
+
+.centered-text {
+  position: relative;
+  z-index: 3;
+  font-size: 128px;
+}

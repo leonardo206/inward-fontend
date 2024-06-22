@@ -2,7 +2,9 @@ import { Component } from '@angular/core';
 import {MenuComponent} from "../../components/menu/menu.component";
 import {NgOptimizedImage} from "@angular/common";
 import {CardSliderComponent} from "../../card-slider/card-slider.component";
-import {HorizontalScrollComponent} from "../../horizontal-scroll/horizontal-scroll.component";
+import {HorizontalScrollComponent} from "../../components/horizontal-scroll/horizontal-scroll.component";
+import {HeaderComponent} from "../../components/header/header.component";
+import {VideoSliderComponent} from "../../components/video-slider/video-slider.component";
 
 @Component({
   selector: 'app-home',
@@ -11,7 +13,9 @@ import {HorizontalScrollComponent} from "../../horizontal-scroll/horizontal-scro
     MenuComponent,
     NgOptimizedImage,
     CardSliderComponent,
-    HorizontalScrollComponent
+    HorizontalScrollComponent,
+    HeaderComponent,
+    VideoSliderComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.css'

@@ -1,40 +1,33 @@
-<div class="top-logo">
-  <img ngSrc="/assets/logo-white.svg" alt="logo" height="120" width="120"/><div class="mobile-menu-divider"></div>
-</div>
-<div class="header-container">
-  <div class="ellipse"></div>
-  <div class="centered-text">INWARD</div>
-  <div class="text-below">BRAND STRATEGY & WEB 4.0 TO<br> ELEVATE YOUR PRESENCE.</div>
-</div>
+<app-header></app-header>
 <app-menu></app-menu>
 <div class="layout-spacer"></div>
-<div class="video-container">
-  <video controls>
-    <source src="https://www.youtube.com/watch?v=K4TOrB7at0Y" type="video/mp4">
-  </video>
-</div>
+<app-video-slider></app-video-slider>
 <div class="layout-spacer"></div>
 <div class="strategies-wrapper">
+  <div class="strategies-portal strategies-portal-left">
+    <img ngSrc="/assets/portal.png" width="157" height="710" alt="">
+  </div>
+  <div class="strategies-portal strategies-portal-right">
+    <img ngSrc="/assets/portal.png" width="157" height="710" alt="">
+  </div>
   <app-horizontal-scroll
     direction="left"
     speed="slow">
   </app-horizontal-scroll>
-
   <app-horizontal-scroll
     direction="right"
     speed="slow">
   </app-horizontal-scroll>
 </div>
-
-<div class="strategies-wrapper">
-  <div class="strategies-portal strategy-portal-left"></div>
-  <div class="strategies-portal strategy-portal-right"></div>
-
+<div class="layout-spacer"></div>
+<div class="layout-spacer"></div>
+<div class="strategies-button-wrapper align-center">
+  <button class="strategies-button inward-button">ALL OUR SERVICES</button>
 </div>
 <div class="layout-spacer"></div>
-<div class="approach-wrapper">
+<div class="approach-wrapper margin-y-160">
   <div class="approach-text">
-    <span class="green-text">Our approach</span>
+    <span class="inward-green">Our approach</span>
     <span class="white-text"> is based on the <br/>combination of</span>
   </div>
   <div class="approach-element">
@@ -63,49 +56,55 @@
   <hr class="approach-element-spacer" />
 </div>
 <div class="layout-spacer"></div>
-<div class="latest-projects-wrapper">
-  <span class="latest-projects-title">LATEST PROJECTS</span>
-  <div class="latest-projects-card">
-    <div  class="latest-projects-card-tags">
-      <span class="latest-projects-card-tag">WEB 4.0</span>
-      <span class="latest-projects-card-tag">WEB 4.0</span>
+<div class="latest-projects-wrapper margin-y-160">
+  <div class="latest-projects-title inward-title inward-green align-center">Latest Projects</div>
+  <div class="latest-projects-cards">
+    <div class="latest-projects-card">
+      <div  class="latest-projects-card-tags">
+        <span class="latest-projects-card-tag">WEB 4.0</span>
+        <span class="latest-projects-card-tag">WEB 4.0</span>
+      </div>
+      <img class="latest-projects-card-image" width="355" height="520" ngSrc="/assets/latest-projects-project.png" alt="latest-projects" />
     </div>
-    <img class="latest-projects-card-image" width="355" height="520" ngSrc="/assets/latest-projects-project.png" alt="latest-projects" />
-  </div>
-  <div class="latest-projects-card">
-    <div  class="latest-projects-card-tags">
-      <span class="latest-projects-card-tag">WEB 4.0</span>
-      <span class="latest-projects-card-tag">WEB 4.0</span>
+    <div class="latest-projects-card">
+      <div  class="latest-projects-card-tags">
+        <span class="latest-projects-card-tag">WEB 4.0</span>
+        <span class="latest-projects-card-tag">WEB 4.0</span>
+      </div>
+      <img class="latest-projects-card-image" width="355" height="520" ngSrc="/assets/latest-projects-project.png" alt="latest-projects" />
     </div>
-    <img class="latest-projects-card-image" width="355" height="520" ngSrc="/assets/latest-projects-project.png" alt="latest-projects" />
-  </div>
-  <div class="latest-projects-card">
-    <div  class="latest-projects-card-tags">
-      <span class="latest-projects-card-tag">WEB 4.0</span>
-      <span class="latest-projects-card-tag">WEB 4.0</span>
+    <div class="latest-projects-card">
+      <div  class="latest-projects-card-tags">
+        <span class="latest-projects-card-tag">WEB 4.0</span>
+        <span class="latest-projects-card-tag">WEB 4.0</span>
+      </div>
+      <img class="latest-projects-card-image" width="355" height="520" ngSrc="/assets/latest-projects-project.png" alt="latest-projects" />
     </div>
-    <img class="latest-projects-card-image" width="355" height="520" ngSrc="/assets/latest-projects-project.png" alt="latest-projects" />
   </div>
-  <button class="latest-projects-button">CHECK ALL PROJECTS</button>
+  <div class="align-center">
+    <button class="latest-projects-button inward-button">CHECK ALL PROJECTS</button>
+  </div>
 </div>
 <div class="layout-spacer"></div>
-<div class="our-clients-wrapper">
-  <span class="our-clients-title">How our clients describe us:</span>
+<div class="our-clients-wrapper inward-title margin-y-160">
+  <span class="our-clients-title">How our clients</span><span class="inward-green"> describe us:</span>
   <div class="our-clients-card our-clients-card-white">
     CARD 1
   </div>
   <div class="our-clients-card our-clients-card-green">
     CARD 2
   </div>
-  <div class="our-clients-card  our-clients-card-white">
+  <div class="our-clients-card our-clients-card-white">
     CARD 3
   </div>
-  <button class="our-clients-button">SEE ALL</button>
+  <div class="align-center">
+    <button class="our-clients-button inward-button">SEE ALL</button>
+  </div>
 </div>
 <div class="layout-spacer"></div>
-READY TO TALK
+<div class="ready-to-talk margin-y-160">READY TO TALK</div>
 <div class="layout-spacer"></div>
-<div class="footer-wrapper">
+<div class="footer-wrapper  margin-y-160">
   <div class="footer-col">
     <div class="footer-inward-studio">INWARD STUDIO</div>
     <div class="footer-born-in-raised">
