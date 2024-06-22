@@ -45,6 +45,11 @@
 /* Desktop menu styles */
 .desktop-menu {
   display: none;
+  position: fixed;
+  bottom: 20px;
+  z-index: 9999;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 /* Mobile menu styles */

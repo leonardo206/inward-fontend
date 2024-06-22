@@ -38,6 +38,6 @@ export class HeaderComponent {
       textBelow.style.transform = 'scale(0.5)';
     }
 
-    headerContainer.style.transform = `translateY(${scrolled * 0.1}px)`;
+    headerContainer.style.transform = `translateY(${scrolled * -0.4}px)`;
   }
 }
