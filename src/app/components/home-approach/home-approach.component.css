@@ -1,0 +1,51 @@
+.approach-wrapper{
+}
+.approach-text {
+  margin-bottom: 64px;
+}
+.approach-element {
+  align-items: center;
+  display: flex;
+}
+.approach-element-text{
+  font-size: 48px;
+  margin-left:30px;
+  cursor: pointer;
+}
+.approach-element-spacer {
+  margin: 62px 0;
+  border: 1px solid #8e8e8e;
+}
+
+.approach-element-content {
+  font-size: 24px;
+  padding-bottom: 64px;
+  transition: height 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+
+@media screen and (max-width: 1440px) {
+  .approach-text {
+    margin-bottom: 48px;
+  }
+  .approach-element {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .approach-element-text{
+    font-size: 32px;
+    margin-left:0;
+  }
+  .approach-element-img{
+    width: 100px;
+    height: 100px;
+  }
+  .approach-element-spacer {
+    margin: 32px 0;
+    border: 1px solid #8e8e8e;
+  }
+  .approach-element-content {
+    padding-bottom: 32px;
+  }
+}

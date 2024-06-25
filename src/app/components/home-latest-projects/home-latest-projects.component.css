@@ -1,0 +1,41 @@
+.latest-projects-cards {
+  padding-top: 64px;
+  margin-bottom: 64px;
+  display: flex;
+  flex-direction: row;
+  gap:24px;
+
+}
+.latest-projects-card {
+  width: 315px;
+  height: 480px;
+  text-align: center;
+  padding: 20px;
+}
+
+.latest-projects-card-text {
+  font-size: 36px;
+  margin-top: 36px;
+}
+
+.latest-projects-card-tag {
+  font-size: 18px;
+  color: black;
+  background-color: white;
+  padding: 7px 16px;
+  border-radius: 20px;
+  margin: 0 10px;
+}
+
+
+@media screen and (max-width: 1440px) {
+  .latest-projects-cards {
+    overflow-x: scroll;
+    gap:16px;
+  }
+
+  .latest-projects-card {
+    min-width: 280px;
+    width: 280px;
+  }
+}

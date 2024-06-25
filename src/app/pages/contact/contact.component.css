@@ -1,0 +1,55 @@
+.contact-title {
+  margin-top: 124px;
+  font-size: 96px;
+  font-weight: bold;
+}
+.contact-email {
+  font-size: 20px;
+  margin-bottom: 48px;
+}
+.contact-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+.contact-content-section {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  gap:24px;
+}
+.contact-content-title {
+  font-size: 32px;
+  font-weight: bold;
+}
+.contact-content-text {
+  font-size: 20px;
+}
+
+.book-a-call-button {
+  height: 320px;
+  width: 220px;
+  border-radius:30px;
+  font-size: 32px;
+  background: url('/assets/book-a-call-background.svg') no-repeat top left;
+}
+
+.contact-content-button{
+  font-size: 16px;
+  padding: 10px 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .contact-content-section-book-a-call {
+    display: none
+  }
+  .contact-content {
+    flex-direction: column;
+    gap:48px;
+  }
+  .contact-title {
+    font-size: 48px;
+    margin-bottom: 5px;
+  }
+}

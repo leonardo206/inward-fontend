@@ -1,0 +1,18 @@
+<div class="latest-projects-wrapper margin-y-160">
+  <div class="latest-projects-title inward-title inward-green align-center">Latest Projects</div>
+  <div class="latest-projects-cards">
+    <ng-container *ngFor="let project of projects">
+      <div class="latest-projects-card-wrapper">
+        <div class="latest-projects-card" [style.background]="'url(' + project.imagePath + ') no-repeat'">
+          <ng-container *ngFor="let tag of project.tags">
+            <span class="latest-projects-card-tag">{{ tag }}</span>
+          </ng-container>
+        </div>
+        <div class="align-center latest-projects-card-text">{{project.text}}</div>
+      </div>
+    </ng-container>
+  </div>
+  <div class="align-center">
+    <button class="latest-projects-button inward-button">CHECK ALL PROJECTS</button>
+  </div>
+</div>

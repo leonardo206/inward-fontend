@@ -1,0 +1,81 @@
+.cta-content {
+  display: flex;
+  flex-direction: column;
+  stroke: #05ff00;
+  overflow: hidden;
+  position: relative;
+  height: 448px;
+  margin-top: 98px;
+  align-items: center;
+  font-size: 32px;
+  color: #05ff00;
+  font-weight: 600;
+  justify-content: center;
+}
+
+.cta-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 100vw;
+}
+
+.cta-header {
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  padding: 0 60px;
+  font-size: 32px;
+  font-weight: 200;
+}
+
+.button-wrapper {
+  position: relative;
+  display: flex;
+  width: 390px;
+  max-width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  margin: 51px 0 23px;
+}
+
+.cta-button {
+  border-radius: 50%;
+  border: 1px solid #fff;
+  background-color: #121212;
+  color: #05ff00;
+  padding: 80px 60px;
+  height: 153px;
+  width: 405px;
+  cursor: pointer;
+  transform: rotate(-162.54deg);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cta-button span {
+  display: block;
+  transform: rotate(162.54deg);
+  position: relative;
+  font-weight: 600;
+  font-size: 32px;
+  text-align: center;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.background-image {
+  object-position: center;
+  width: 2899px!important;
+  height: 100%;
+  animation: scroll 10s linear infinite;
+}

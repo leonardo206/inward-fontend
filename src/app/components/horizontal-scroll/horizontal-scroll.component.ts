@@ -40,7 +40,7 @@ export class HorizontalScrollComponent implements OnInit {
       {
         key: 'design',
         text: 'DESIGN',
-        imagePath: '/assets/approach-collaboration.svg'
+        imagePath: '/assets/approach-design.svg'
       },
       {
         key: 'develop',

@@ -11,11 +11,17 @@
   <button (click)="toggleMobileMenu()" class="menu-button">
     <img ngSrc="/assets/logo.svg" alt="logo" height="40" width="40"/><div class="mobile-menu-divider"></div><span>MENU</span>
   </button>
+
   <div *ngIf="isMobileMenuOpen" class="mobile-menu-content">
     <ul>
       <li *ngFor="let item of menuItems">
         <a routerLinkActive="active" (click)="toggleMobileMenu()" [routerLink]="item.link">{{ item.name }}</a>
       </li>
     </ul>
+    <div class="mobile-menu-ellipse"></div>
+    <button (click)="toggleMobileMenu()" class="menu-button mobile-menu-close-button">
+      CLOSE
+    </button>
   </div>
+
 </nav>

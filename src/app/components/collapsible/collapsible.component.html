@@ -1,0 +1,8 @@
+<div *ngFor="let section of sections; let i = index">
+  <button (click)="toggleSection(i)">
+    {{ section.title }}
+  </button>
+  <div *ngIf="activeSection === i">
+    {{ section.content }}
+  </div>
+</div>

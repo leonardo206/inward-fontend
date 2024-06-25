@@ -1,133 +1,19 @@
 <app-header></app-header>
-<app-menu></app-menu>
-<div class="layout-spacer"></div>
-<app-video-slider></app-video-slider>
-<div class="layout-spacer"></div>
-<div class="strategies-wrapper">
-  <div class="strategies-portal strategies-portal-left">
-    <img ngSrc="/assets/portal.png" width="157" height="710" alt="">
-  </div>
-  <div class="strategies-portal strategies-portal-right">
-    <img ngSrc="/assets/portal.png" width="157" height="710" alt="">
-  </div>
-  <app-horizontal-scroll
-    direction="left"
-    speed="slow">
-  </app-horizontal-scroll>
-  <app-horizontal-scroll
-    direction="right"
-    speed="slow">
-  </app-horizontal-scroll>
+<div class="menu-wrapper">
+  <app-menu></app-menu>
 </div>
 <div class="layout-spacer"></div>
-<div class="layout-spacer"></div>
-<div class="strategies-button-wrapper align-center">
-  <button class="strategies-button inward-button">ALL OUR SERVICES</button>
+<div class="video-wrapper">
+  <app-video-slider></app-video-slider>
 </div>
 <div class="layout-spacer"></div>
-<div class="approach-wrapper margin-y-160">
-  <div class="approach-text">
-    <span class="inward-green">Our approach</span>
-    <span class="white-text"> is based on the <br/>combination of</span>
-  </div>
-  <div class="approach-element">
-    <img class="approach-element-img" ngSrc="/assets/approach-experimentation.svg" alt="approach-experimentation"
-         height="160" width="160"/>
-    <span class="approach-element-text">EXPERIMENTATION</span>
-  </div>
-  <hr class="approach-element-spacer" />
-  <div class="approach-element">
-    <img class="approach-element-img" ngSrc="/assets/approach-collaboration.svg" alt="approach-collaboration"
-         height="160" width="160"/>
-    <span class="approach-element-text">COLLABORATION</span>
-  </div>
-  <hr class="approach-element-spacer" />
-  <div class="approach-element">
-    <img class="approach-element-img" ngSrc="/assets/approach-implementation.svg" alt="approach-implementation"
-         height="160" width="160"/>
-    <span class="approach-element-text">IMPLEMENTATION</span>
-  </div>
-  <hr class="approach-element-spacer" />
-  <div class="approach-element">
-    <img class="approach-element-img" ngSrc="/assets/approach-testing.svg" alt="approach-testing"
-         height="160" width="160"/>
-    <span class="approach-element-text">TESTING</span>
-  </div>
-  <hr class="approach-element-spacer" />
-</div>
+<app-home-strategies></app-home-strategies>
 <div class="layout-spacer"></div>
-<div class="latest-projects-wrapper margin-y-160">
-  <div class="latest-projects-title inward-title inward-green align-center">Latest Projects</div>
-  <div class="latest-projects-cards">
-    <div class="latest-projects-card">
-      <div  class="latest-projects-card-tags">
-        <span class="latest-projects-card-tag">WEB 4.0</span>
-        <span class="latest-projects-card-tag">WEB 4.0</span>
-      </div>
-      <img class="latest-projects-card-image" width="355" height="520" ngSrc="/assets/latest-projects-project.png" alt="latest-projects" />
-    </div>
-    <div class="latest-projects-card">
-      <div  class="latest-projects-card-tags">
-        <span class="latest-projects-card-tag">WEB 4.0</span>
-        <span class="latest-projects-card-tag">WEB 4.0</span>
-      </div>
-      <img class="latest-projects-card-image" width="355" height="520" ngSrc="/assets/latest-projects-project.png" alt="latest-projects" />
-    </div>
-    <div class="latest-projects-card">
-      <div  class="latest-projects-card-tags">
-        <span class="latest-projects-card-tag">WEB 4.0</span>
-        <span class="latest-projects-card-tag">WEB 4.0</span>
-      </div>
-      <img class="latest-projects-card-image" width="355" height="520" ngSrc="/assets/latest-projects-project.png" alt="latest-projects" />
-    </div>
-  </div>
-  <div class="align-center">
-    <button class="latest-projects-button inward-button">CHECK ALL PROJECTS</button>
-  </div>
-</div>
+<app-home-approach></app-home-approach>
+<!--<app-collapsible></app-collapsible>-->
 <div class="layout-spacer"></div>
-<div class="our-clients-wrapper inward-title margin-y-160">
-  <span class="our-clients-title">How our clients</span><span class="inward-green"> describe us:</span>
-  <div class="our-clients-card our-clients-card-white">
-    CARD 1
-  </div>
-  <div class="our-clients-card our-clients-card-green">
-    CARD 2
-  </div>
-  <div class="our-clients-card our-clients-card-white">
-    CARD 3
-  </div>
-  <div class="align-center">
-    <button class="our-clients-button inward-button">SEE ALL</button>
-  </div>
-</div>
+<app-home-latest-projects></app-home-latest-projects>
+
 <div class="layout-spacer"></div>
-<div class="ready-to-talk margin-y-160">READY TO TALK</div>
+<app-testimonials-section></app-testimonials-section>
 <div class="layout-spacer"></div>
-<div class="footer-wrapper  margin-y-160">
-  <div class="footer-col">
-    <div class="footer-inward-studio">INWARD STUDIO</div>
-    <div class="footer-born-in-raised">
-      <span class="footer-born-in">Born in LA,</span>
-      <span class="footer-raise">Raised around the world</span>
-    </div>
-  </div>
-  <div class="footer-col">
-    <a class="footer-link" href="/about">About</a>
-    <a class="footer-link" href="/projects">Projects</a>
-    <a class="footer-link" href="/articles">Articles</a>
-    <a class="footer-link" href="/contact">Contact</a>
-  </div>
-  <div class="footer-col">
-    <a class="footer-link" href="http://instagram.com">Instagram</a>
-    <a class="footer-link" href="http://linkedin.com">Linkedin</a>
-    <a class="footer-link" href="http://dribble.com">Dribble</a>
-    <a class="footer-link" href="http://behance.com">Behance</a>
-  </div>
-  <div class="footer-col">
-    <button>GO TOP</button>
-  </div>
-  <hr class="footer-divider" />
-  <span class="footer-copyright">©Inwardstudio LLC 2023</span>
-  <span class="cookies"><a>Cookies & Policies</a></span>
-</div>

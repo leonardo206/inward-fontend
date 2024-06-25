@@ -1,0 +1,41 @@
+.strategies-wrapper {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.strategies-button-wrapper {
+  margin-top: 32px;
+}
+.strategies-portal {
+  position: absolute;
+  transform:translateY(-25%);
+}
+.strategies-portal-left {
+  left: 0;
+}
+.strategies-portal-right {
+  right: 0;
+  transform: rotateY(180deg) translateY(-25%);
+}
+
+.strategies-divider {
+  display: none;
+}
+
+.mobile-only {
+  display: none;
+}
+@media screen and (max-width: 1440px) {
+  .strategies-divider {
+    display: block;
+  }
+  .mobile-only {
+    display: block;
+  }
+  .strategies-portal {
+    display: none;
+  }
+  .strategies-button-wrapper {
+    margin-top: 0;
+  }
+}

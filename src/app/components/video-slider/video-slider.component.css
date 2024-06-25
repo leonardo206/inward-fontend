@@ -13,3 +13,17 @@
   display: block;
   border-radius: 30px;
 }
+
+@media screen and (max-width: 1440px) {
+  .video-container {
+    border: none;
+    padding: 0;
+    margin:20px;
+  }
+
+  .video-container video {
+    width: 100%;
+    display: block;
+    border-radius: 30px;
+  }
+}

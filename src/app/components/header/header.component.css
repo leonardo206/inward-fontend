@@ -9,20 +9,17 @@
   padding: 50px;
   font-weight: bold;
   color: white;
-  margin-bottom: 150px;
+  margin-bottom: 160px;
 }
 @keyframes pulsate {
   0% {
-    width: 1300px;
-    height: 490px;
+    transform: translate(-50%, -50%) rotate(162.54deg) scale(1);
   }
   50% {
-    width: 1400px;
-    height: 530px;
+    transform: translate(-50%, -50%) rotate(162.54deg) scale(1.1);
   }
   100% {
-    width: 1300px;
-    height: 490px;
+    transform: translate(-50%, -50%) rotate(162.54deg) scale(1);
   }
 }
 
@@ -51,4 +48,39 @@
   position: relative;
   z-index: 3;
   font-size: 128px;
+}
+
+.header-wrapper {
+  overflow: hidden;
+}
+.top-logo-desktop {
+  display: flex;
+}
+.top-logo-mobile {
+  display: none;
+  font-size: 14px;
+  padding:16px;
+  margin-bottom: 200px;
+}
+
+@media screen and (max-width: 1440px) {
+  .top-logo-desktop {
+    display: none;
+  }
+  .top-logo-mobile {
+    display: flex;
+  }
+  .content {
+    width: max-content;
+  }
+  .centered-text {
+    font-size: 64px;
+  }
+  .text-below {
+    font-size: 18px
+  }
+  .ellipse {
+    width: 838px;
+    height: 316px;
+  }
 }
