@@ -114,7 +114,7 @@
   cursor: pointer;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1439px) {
   .testimonials-container {
     padding: 0 20px;
   }

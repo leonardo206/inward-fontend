@@ -93,7 +93,7 @@ html {
 ::-webkit-scrollbar-corner { background-color: #646464;}
 ::-webkit-resizer { background-color: #666;}
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1439px) {
   .layout-spacer {
     height: 150px;
   }

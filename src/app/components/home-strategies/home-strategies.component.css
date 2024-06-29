@@ -25,7 +25,7 @@
 .mobile-only {
   display: none;
 }
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1439px) {
   .strategies-divider {
     display: block;
   }

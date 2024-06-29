@@ -14,7 +14,7 @@
   border-radius: 30px;
 }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1439px) {
   .video-container {
     border: none;
     padding: 0;

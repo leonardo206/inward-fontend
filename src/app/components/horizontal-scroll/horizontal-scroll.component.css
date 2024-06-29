@@ -69,7 +69,7 @@
 }
 
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1439px) {
   .strategies-wrapper-element{
     display: inline-flex;
     align-items: center;
