@@ -27,6 +27,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'Tomato Grotesk';
+  src: url('/assets/Tomato-Grotesk/TOMATOGROTESK-MEDIUMSLANTED.OTF') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+}
+
 body {
   font-family: "Tomato Grotesk", sans-serif;
   font-weight: normal;
