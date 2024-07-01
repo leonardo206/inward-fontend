@@ -19,7 +19,7 @@
 
 .approach-element-content {
   font-size: 24px;
-  padding-bottom: 64px;
+  padding-top: 64px;
   transition: height 0.3s ease-in-out, opacity 0.3s ease-in-out;
 }
 

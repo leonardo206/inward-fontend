@@ -4,15 +4,15 @@
     <span class="white-text"> is based on the <br/>combination of</span>
   </div>
   <div *ngFor="let section of sections; let i = index">
-      <div class="approach-element" (click)="toggleSection(i)">
-        <img class="approach-element-img" ngSrc="{{section.imagePath}}" alt="approach-experimentation"
-             height="160" width="160"/>
-        <span class="approach-element-text">{{section.title}}</span>
-      </div>
-      <hr class="approach-element-spacer" />
-      <div [@changeCollapse]="activeSection === i ? 'open' : 'closed'" class="approach-element-content">
-        {{ section.content }}
-      </div>
+    <div class="approach-element" (click)="toggleSection(i)">
+      <img class="approach-element-img" ngSrc="{{section.imagePath}}" alt="approach-experimentation"
+           height="160" width="160"/>
+      <span class="approach-element-text">{{section.title}}</span>
+    </div>
+    <div [@changeCollapse]="activeSection === i ? 'open' : 'closed'" class="approach-element-content">
+      {{ section.content }}
+    </div>
+    <hr class="approach-element-spacer" />
   </div>
 </div>
 
