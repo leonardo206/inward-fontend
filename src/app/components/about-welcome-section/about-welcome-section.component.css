@@ -1,0 +1,58 @@
+:host {
+  display: contents;
+}
+
+.about-ellipse {
+  position: absolute;
+  z-index: -1;
+  right: 160px;
+  top: 283px;
+}
+
+.welcome-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 80px 60px;
+  font-size: 40px;
+  color: #fff;
+  font-weight: 500;
+}
+.welcome-content-wrapper {
+  display: flex;
+  width: 927px;
+  max-width: 100%;
+  flex-direction: column;
+  margin: 44px 0 0 100px;
+}
+.welcome-content-header {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 96px;
+}
+.welcome-content-description {
+  line-height: 52px;
+  margin-top: 36px;
+}
+.tagline {
+  color: #05ff00;
+  line-height: 130%;
+  margin-top: 36px;
+}
+@media (max-width: 1439px) {
+  .welcome-section {
+    padding: 0 20px;
+  }
+  .welcome-content-wrapper {
+    margin-top: 40px;
+  }
+  .welcome-content-header {
+    max-width: 100%;
+    font-size: 40px;
+  }
+  .welcome-content-description,
+  .tagline {
+    max-width: 100%;
+  }
+}
