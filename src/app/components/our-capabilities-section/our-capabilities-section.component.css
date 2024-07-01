@@ -4,6 +4,7 @@
 .capabilities-content-wrapper {
   display: flex;
   gap: 20px;
+  padding: 0 30px;
 }
 .section-header {
   width: 33%;
