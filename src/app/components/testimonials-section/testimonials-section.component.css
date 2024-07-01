@@ -131,12 +131,20 @@
 }
 
 .testimonial-back-footer {
+  width: 300px;
   position: absolute;
   bottom: 24px;
   display: flex;
   flex-direction: column;
   margin-top: 10px;
 
+}
+
+.arrow-right {
+  position: absolute;
+  right:0;
+  bottom:0;
+  float: right;
 }
 
 .client-name {
