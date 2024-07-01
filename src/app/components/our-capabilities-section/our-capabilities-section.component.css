@@ -9,6 +9,9 @@
 .section-header {
   width: 33%;
 }
+.capabilities-divider {
+  margin: 40px 30px;
+}
 .section-title {
   color: #fff;
   font-weight: bold;
