@@ -1,8 +1,8 @@
 .about-ellipse {
   position: absolute;
   z-index: -1;
-  right: 160px;
-  top: 283px;
+  right: 99px;
+  top: 235px;
 }
 
 .welcome-section {
@@ -10,7 +10,7 @@
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  padding: 80px 60px;
+  padding-top: 124px;
   font-size: 40px;
   color: #fff;
   font-weight: 500;
@@ -46,10 +46,12 @@
   }
   .welcome-content-header {
     max-width: 100%;
-    font-size: 40px;
+    font-size: 48px;
   }
   .welcome-content-description,
   .tagline {
     max-width: 100%;
+    font-size: 20px;
   }
+
 }
