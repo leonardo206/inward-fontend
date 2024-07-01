@@ -139,6 +139,11 @@
   margin-top: 10px;
 
 }
+.testimonials-star{
+  position: absolute;
+  right: 24px;
+  top: 24px;
+}
 
 .arrow-right {
   position: absolute;
