@@ -19,7 +19,7 @@ export class TestimonialsSectionComponent {
       stars: 2,
       clientName: 'BUCCE RESTAURANT',
       clientLocation: 'Miami, Florida',
-      hoverText: 'Great service, highly recommended!'
+      hoverText: 'What a great experience. I initially came on board seeking help with a logo. I now have an identity I couldn\'t be more proud of. The team went above and beyond to completely fill my expectations.'
     },
     {
       keywords: ['AGILE', 'EXPERTS', 'SUPPORTIVE'],
@@ -35,7 +35,7 @@ export class TestimonialsSectionComponent {
       stars: 1,
       clientName: 'BUCCE RESTAURANT',
       clientLocation: 'Miami, Florida',
-      hoverText: 'Great service, highly recommended!'
+      hoverText: 'What a great experience. I initially came on board seeking help with a logo. I now have an identity I couldn\'t be more proud of. The team went above and beyond to completely fill my expectations.What a great experience. I initially came on board seeking help with a logo. I now have an identity I couldn\'t be more proud of. The team went above and beyond to completely fill my expectations.'
     }
   ];
 

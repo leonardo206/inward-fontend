@@ -6,26 +6,34 @@
   </div>
   <div class="testimonials-grid">
     <div class="testimonial-card" *ngFor="let testimonial of testimonials">
-      <div class="testimonial-content front">
-        <div class="testimonial-keywords">
-          <span *ngFor="let keyword of testimonial.keywords">{{ keyword }}</span>
-        </div>
-        <hr class="testimonial-divider" />
-        <div class="testimonial-rating">
-          <span class="rating-label">{{ testimonial.ratingLabel }}:</span>
-          <div class="rating-stars">
-            <img *ngFor="let star of generateArray(testimonial.stars)" ngSrc="assets/star-rating.svg" height="29" width="28" [alt]="testimonial.ratingLabel + ' star'" class="star-icon" />
+      <div class="testimonial-inner">
+        <div class="front">
+          <div class="testimonial-keywords">
+            <span *ngFor="let keyword of testimonial.keywords">{{ keyword }}</span>
+          </div>
+          <hr class="testimonial-divider" />
+          <div class="testimonial-rating">
+            <span class="rating-label">{{ testimonial.ratingLabel }}:</span>
+            <div class="rating-stars">
+              <img *ngFor="let star of generateArray(testimonial.stars)" src="assets/star-rating.svg" height="29" width="28" [alt]="testimonial.ratingLabel + ' star'" class="star-icon" />
+            </div>
+          </div>
+          <hr class="testimonial-divider" />
+          <div class="testimonial-footer">
+            <div class="client-name">{{ testimonial.clientName }}</div>
+            <div class="client-location">{{ testimonial.clientLocation }}</div>
           </div>
         </div>
-        <hr class="testimonial-divider" />
-        <div class="testimonial-footer">
-          <div class="client-name">{{ testimonial.clientName }}</div>
-          <div class="client-location">{{ testimonial.clientLocation }}</div>
-        </div>
-      </div>
-      <div class="testimonial-content back">
-        <div class="hover-text">
-          {{ testimonial.hoverText }}
+        <div class="back">
+          <div class="testimonial-back-content">
+            <div class="hover-text">
+              {{ testimonial.hoverText }}
+            </div>
+            <hr class="testimonial-back-divider" />
+            <div class="testimonial-back-footer">
+              {{ testimonial.clientName }}
+            </div>
+          </div>
         </div>
       </div>
     </div>
